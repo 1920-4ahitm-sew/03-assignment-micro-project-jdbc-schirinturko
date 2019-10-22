@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e808c2c-7355-425d-aea1-838bf4b46877" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Baeckerei-st/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Baeckerei-st/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/model/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/model/Kunde.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,10 +35,14 @@
   <component name="ProjectId" id="1SYcxTGY1asHmnmDaUYElPHiqXL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Uebungen_Livecoding/RestPrimer" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,8 +58,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Wildfly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/baeckerei/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Baeckerei:war exploded">
           <settings />
@@ -134,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571744216017</updated>
       <workItem from="1571744220641" duration="6050000" />
-      <workItem from="1571781466388" duration="133000" />
+      <workItem from="1571781466388" duration="996000" />
     </task>
     <servers />
   </component>

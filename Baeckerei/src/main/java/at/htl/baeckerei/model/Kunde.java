@@ -1,6 +1,8 @@
 package at.htl.baeckerei.model;
 
-//@XmlRootElement
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Kunde {
     private int id;
     private String name;

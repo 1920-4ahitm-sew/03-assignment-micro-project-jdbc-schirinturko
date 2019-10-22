@@ -9,7 +9,7 @@ public class BaeckereiEndpoint {
 
     @GET
     @Path("{id}")
-    public Baeckerei find(@PathParam("id") long id){
-        return new Baeck
+    public Kunde find(@PathParam("id") long id){
+        return new Kunde("Lisa " + id);
     }
 }

@@ -9,6 +9,7 @@
     <list default="true" id="9e808c2c-7355-425d-aea1-838bf4b46877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,7 +146,7 @@
       <updated>1571744216017</updated>
       <workItem from="1571744220641" duration="6050000" />
       <workItem from="1571781466388" duration="2089000" />
-      <workItem from="1571810676444" duration="1405000" />
+      <workItem from="1571810676444" duration="2272000" />
     </task>
     <servers />
   </component>

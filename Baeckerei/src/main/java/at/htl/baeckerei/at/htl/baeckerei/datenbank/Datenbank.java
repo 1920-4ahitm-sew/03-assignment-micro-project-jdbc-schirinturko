@@ -12,6 +12,7 @@ public class Datenbank {
     private static Connection conn;
 
     public static void initJdbc(){
+        //Verbindung zur DB herstellen
         try{
             Class.forName(DRIVER_STRING);
             conn = DriverManager.getConnection(CONNECTION_STRING, USER, PASSWORD);

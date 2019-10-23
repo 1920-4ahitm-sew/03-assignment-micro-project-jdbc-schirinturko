@@ -11,10 +11,10 @@ import java.util.List;
 @Path("baeckerei")
 public class BaeckereiEndpoint {
 
-    /*@GET
+    @GET
     @Path("{id}")
     public Kunde find(@PathParam("id") long id){
-        return new Kunde("Lisa " + id);
+        return new Kunde();
     }
 
     @GET
@@ -22,5 +22,5 @@ public class BaeckereiEndpoint {
         List<Kunde> all = new ArrayList<>();
         all.add(find(42));
         return all;
-    }*/
+    }
 }

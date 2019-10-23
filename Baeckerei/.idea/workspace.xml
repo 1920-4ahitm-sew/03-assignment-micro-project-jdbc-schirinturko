@@ -9,14 +9,28 @@
     <list default="true" id="9e808c2c-7355-425d-aea1-838bf4b46877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/createData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/createData.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +54,9 @@
   <component name="ProjectId" id="1SYcxTGY1asHmnmDaUYElPHiqXL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Baeckerei-st" />
@@ -134,6 +150,16 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,7 +172,7 @@
       <updated>1571744216017</updated>
       <workItem from="1571744220641" duration="6050000" />
       <workItem from="1571781466388" duration="2089000" />
-      <workItem from="1571810676444" duration="2272000" />
+      <workItem from="1571810676444" duration="2828000" />
     </task>
     <servers />
   </component>

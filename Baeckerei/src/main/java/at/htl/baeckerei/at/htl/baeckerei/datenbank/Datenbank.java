@@ -58,6 +58,7 @@ public class Datenbank {
 
     //Select alle Kunden
     public List<Kunde> getAllKunden() throws SQLException {
+        initJdbc();
         LinkedList<Kunde> kundenList = new LinkedList<>();
         PreparedStatement preparedStatement = conn.prepareStatement (
                 "select * from KUNDE");

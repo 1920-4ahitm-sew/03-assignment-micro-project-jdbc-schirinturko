@@ -72,11 +72,13 @@ public class Datenbank {
     }
 
     //Insert Kunde
-    public void insertKunde(Kunde kunde) throws SQLException{
+    public Kunde insertKunde(Kunde kunde) throws SQLException{
         PreparedStatement insertKundePreparedStatement =
                 conn.prepareStatement("insert into KUNDE(ID, NAME) values (?, ?)");
         insertKundePreparedStatement.setInt(1, kunde.getId());
         insertKundePreparedStatement.setString(2, kunde.getName());
         insertKundePreparedStatement.executeUpdate();
+        insertKundePreparedStatement.close();
+        return kunde;
     }
 }

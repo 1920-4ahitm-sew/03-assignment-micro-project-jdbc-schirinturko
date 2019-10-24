@@ -41,17 +41,37 @@ public class Datenbank {
     }
 
     //Select Kunde
-    public List<Kunde> getKunde(int id) throws SQLException{
+    public Kunde getKunde(int id) throws SQLException{
         PreparedStatement preparedStatement = conn.prepareStatement (
-                "select id, name");
+                "select id, name from KUNDE where id=?");
+        preparedStatement.setInt(1,id);
         ResultSet rs = preparedStatement.executeQuery();
-        List<Kunde> kunde = new LinkedList<Kunde>();
-        while (rs.next()){
-            kunde.add(new Kunde(rs.getInt("id"), rs.getString("name")));
+        Kunde kunde = new Kunde();
+        if(rs.next()) {
+            kunde.setId(rs.getInt(1));
+            kunde.setName(rs.getString(2));
         }
         rs.close();
         preparedStatement.close();
         return kunde;
+    }
+
+    //Select alle Kunden
+    public List<Kunde> getAllKunden() throws SQLException {
+        LinkedList<Kunde> kundenList = new LinkedList<>();
+        PreparedStatement preparedStatement = conn.prepareStatement (
+                "select * from KUNDE");
+        ResultSet rs = preparedStatement.executeQuery();
+
+        while(rs.next()) {
+            Kunde kunde = new Kunde();
+            kunde.setId(rs.getInt(1));
+            kunde.setName(rs.getString(2));
+            kundenList.add(kunde);
+        }
+        rs.close();
+        preparedStatement.close();
+        return kundenList;
     }
 
     //Update Kunde

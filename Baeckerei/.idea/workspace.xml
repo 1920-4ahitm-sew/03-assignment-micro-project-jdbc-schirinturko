@@ -9,27 +9,8 @@
     <list default="true" id="9e808c2c-7355-425d-aea1-838bf4b46877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c4a0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c4a0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/seg0/d490.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +198,7 @@
       <workItem from="1571744220641" duration="6050000" />
       <workItem from="1571781466388" duration="2089000" />
       <workItem from="1571810676444" duration="10936000" />
-      <workItem from="1571897206076" duration="5981000" />
+      <workItem from="1571897206076" duration="6620000" />
     </task>
     <servers />
   </component>

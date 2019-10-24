@@ -10,9 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DatabaseMetaData;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -33,7 +30,7 @@ public class MyServlet extends HttpServlet {
         Datenbank db = new Datenbank();
         List<Kunde> kundeList = db.getAllKunden();
 
-        //open html tags
+        //html tags
         out.println("<!DOCTYPE html>");
         out.println("<html>");
         out.println("<head>");
@@ -45,12 +42,15 @@ public class MyServlet extends HttpServlet {
         out.println("<tr>" +
                 "<th>ID</th><th>NAME</th>" +
                 "</tr>");
+
+        //foreach für Datenausgabe
         for (Kunde k : kundeList) {
             out.println("<tr>");
             out.println("<td>" + k.getId() + "</td>");
             out.println("<td>" + k.getName() + "</td>");
             out.println("</tr>");
         }
+
         out.println("</table>");
         out.println("</body>");
         out.println("</html>");

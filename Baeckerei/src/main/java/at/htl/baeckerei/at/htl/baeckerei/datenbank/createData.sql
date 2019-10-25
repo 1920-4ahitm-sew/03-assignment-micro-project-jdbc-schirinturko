@@ -1,3 +1,5 @@
+--SQL
+
 drop table kunde;
 
 create table kunde(

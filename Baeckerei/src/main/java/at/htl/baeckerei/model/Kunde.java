@@ -2,6 +2,7 @@ package at.htl.baeckerei.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+//KUNDE CLASS
 @XmlRootElement
 public class Kunde {
     private int id;

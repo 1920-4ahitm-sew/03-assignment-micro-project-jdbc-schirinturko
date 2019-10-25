@@ -13,6 +13,7 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.List;
 
+//SERVLET:
 //http://localhost:8080/baeckerei/kundenData
 @WebServlet("kundenData")
 public class MyServlet extends HttpServlet {

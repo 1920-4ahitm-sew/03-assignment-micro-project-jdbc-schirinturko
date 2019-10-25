@@ -9,6 +9,8 @@ import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 
+//REST-SERVICE:
+//http://localhost:8080/baeckerei/api/baeckerei
 @Path("baeckerei")
 @Produces({
         MediaType.APPLICATION_JSON,

@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
+//DATENBANK
 public class Datenbank {
     public static final String DRIVER_STRING = "org.apache.derby.jdbc.ClientDriver";
     static final String CONNECTION_STRING = "jdbc:derby://localhost:1527/db;create=true";
@@ -42,6 +43,7 @@ public class Datenbank {
 
     //Select Kunde
     public Kunde getKunde(int id) throws SQLException{
+        initJdbc();//DB aufrufen
         PreparedStatement preparedStatement = conn.prepareStatement (
                 "select id, name from KUNDE where id=?");
         preparedStatement.setInt(1,id);
@@ -53,6 +55,7 @@ public class Datenbank {
         }
         rs.close();
         preparedStatement.close();
+        teardownJdbc();//DB schließen
         return kunde;
     }
 
@@ -72,34 +75,41 @@ public class Datenbank {
         }
         rs.close();
         preparedStatement.close();
+        teardownJdbc();
         return kundenList;
     }
 
     //Update Kunde
     public void updateKunde(Kunde kunde) throws SQLException{
+        initJdbc();
         PreparedStatement updateKundePreparedStatement = conn.prepareStatement(
                 "update KUNDE set NAME = ? where ID = ?");
         updateKundePreparedStatement.setString(1, kunde.getName());
         updateKundePreparedStatement.setInt(2, kunde.getId());
         updateKundePreparedStatement.close();
+        teardownJdbc();
     }
 
     //Delete Kunde
     public void deleteKunde(Kunde kunde) throws SQLException{
+        initJdbc();
         PreparedStatement deleteKundePreparedStatement =
                 conn.prepareStatement("delete from KUNDE where ID = ?");
         deleteKundePreparedStatement.setInt(1, kunde.getId());
         deleteKundePreparedStatement.executeUpdate();
+        teardownJdbc();
     }
 
     //Insert Kunde
     public Kunde insertKunde(Kunde kunde) throws SQLException{
+        initJdbc();
         PreparedStatement insertKundePreparedStatement =
                 conn.prepareStatement("insert into KUNDE(ID, NAME) values (?, ?)");
         insertKundePreparedStatement.setInt(1, kunde.getId());
         insertKundePreparedStatement.setString(2, kunde.getName());
         insertKundePreparedStatement.executeUpdate();
         insertKundePreparedStatement.close();
+        teardownJdbc();
         return kunde;
     }
 }

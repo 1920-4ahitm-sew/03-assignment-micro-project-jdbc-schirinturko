@@ -21,10 +21,21 @@
     <column id="14" parent="13" name="ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
     </column>
     <column id="15" parent="13" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
     </column>
+    <index id="16" parent="13" name="SQL191025105224640">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="17" parent="13" name="KUNDE_PK">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

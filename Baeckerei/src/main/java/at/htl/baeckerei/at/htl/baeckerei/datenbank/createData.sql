@@ -3,8 +3,8 @@
 drop table kunde;
 
 create table kunde(
-    id int,
-    name varchar(20)
+    id int constraint kunde_pk primary key,
+    name varchar(20) not null
 );
 
 insert into kunde (id,name) values(1,'Lisa');

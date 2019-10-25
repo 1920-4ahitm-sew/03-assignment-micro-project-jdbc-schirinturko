@@ -9,15 +9,6 @@
     <list default="true" id="9e808c2c-7355-425d-aea1-838bf4b46877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baeckerei-st/Baeckerei-st.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/Datenbank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/createData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/at/htl/baeckerei/datenbank/createData.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/model/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/model/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/rest/BaeckereiEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/rest/BaeckereiEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/baeckerei/servlet/MyServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +197,7 @@
       <workItem from="1571781466388" duration="2089000" />
       <workItem from="1571810676444" duration="10936000" />
       <workItem from="1571897206076" duration="12331000" />
-      <workItem from="1571991396896" duration="556000" />
+      <workItem from="1571991396896" duration="1013000" />
     </task>
     <servers />
   </component>
